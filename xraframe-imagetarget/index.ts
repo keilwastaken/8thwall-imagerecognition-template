@@ -26,13 +26,13 @@ export class ImageTarget extends BaseComponent{
 }
 
 // Displays the name of the image target as it was set in the 8th Wall console.
-@component("targetname")
-export class targetname extends BaseComponent{
-  init (): void {
-    const el = this.el
-    el.sceneEl.addEventListener('xrimagefound', (detail: any) => {
-      el.setAttribute(
-        'value', detail.length > 20 ? `${detail.name.substring(0, 17)}...` : detail.name)
-    })
-  }
-}
+// @component("targetname")
+// export class targetname extends BaseComponent{
+//   init (): void {
+//     const el = this.el
+//     el.sceneEl.addEventListener('xrimagefound', (detail: any) => {
+//       el.setAttribute(
+//         'value', 'test')
+//     })
+//   }
+// }
