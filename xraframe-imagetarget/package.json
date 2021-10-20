@@ -1,0 +1,20 @@
+{
+  "name": "xraframe-imagetarget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/aframe": "^0.8.3",
+    "@types/three": "^0.92.21",
+    "aframe": "^1.2.0",
+    "aframe-typescript-class-components": "^0.3.3",
+    "three": "^0.130.1",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.4"
+  }
+}
