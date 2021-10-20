@@ -17,14 +17,14 @@
   <script type='text/javascript' src='config.js'></script>
 
   <script type='text/javascript'>
-    var JSLink = `//apps.8thwall.com/xrweb?appKey=${config.MY_API_TOKEN}`
+    var JSLink = `//apps.8thwall.com/xrweb?appKey=XXXXXX`
     var JSElement = document.createElement('script');
     JSElement.src = JSLink;
     document.getElementsByTagName('head')[0].appendChild(JSElement);
 
   </script>
   <!-- client code -->
-  <script src="index.js"></script>
+  <script src="index.ts"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 </head>
@@ -55,7 +55,7 @@
       <a-light type="directional" intensity="1" target="#frame" position="1.5 0.6 2.5"> </a-light>
 
       <!-- Display the image target's name as set in the 8th Wall console. -->
-      <a-text targetname value="./targets/flower.jpg" align="center" width="1.75" position="0 -0.55 0.04"></a-text>
+      <a-text targetname value=".hwlolo" align="center" width="1.75" position="0 -0.55 0.04"></a-text>
     </arextras-named-image-target>
 
   </a-scene>
